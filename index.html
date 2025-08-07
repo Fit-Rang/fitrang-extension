@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<script src="./scripts/axios.min.js"></script>
+<script type="module" src="index.js"></script>
+<body>
+  <button id="logoutBtn" class="logout-btn">Logout</button>
+  <h3 class="head">FitoMeter</h3>
+  <hr class="line">
+
+  <h4 class="section-title">Shopping for</h4>
+  <article class="hero">
+    <section class="profile"></section>
+  </article>
+
+  <div id="loading" class="loading hidden">
+    <div class="spinner"></div>
+  </div>
+
+  <div class="result">
+    <hr class="line">
+    <h4 class="section-title">Body Suitability</h4>
+    <article class="hero scrollable-text">
+      <p id="verdict">Choose who you're shopping for...</p>
+    </article>
+
+    <hr class="line">
+    <h4 class="section-title">Score on FitoMeter</h4>
+    <article class="hero score-container">
+      <section class="score-circle">
+        <h1 class="score" id="score">0/10</h1>
+      </section>
+    </article>
+
+    <hr class="line">
+    <h4 class="section-title">Pay Attention!!!</h4>
+    <article class="hero scrollable-text">
+      <p id="detail"></p>
+    </article>
+  </div>
+
+  <h4 class="section-title error" id="status"></h4>
+</body>
+</html>
+

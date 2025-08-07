@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "FitRang",
+  "version": "1.0",
+  "description": "Analyze fashion product pages using FitRang profiles",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "icons/Shirt-16.png",
+      "32": "icons/Shirt-32.png",
+      "48": "icons/Shirt-48.png",
+      "128": "icons/Shirt-128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/Shirt-16.png",
+    "32": "icons/Shirt-32.png",
+    "48": "icons/Shirt-48.png",
+    "128": "icons/Shirt-128.png"
+  },
+  "permissions": ["tabs", "storage", "scripting"],
+  "host_permissions": ["<all_urls>"]
+}
+
+
